@@ -15,6 +15,14 @@ Un [wiki](https://github.com/bdelion/CodeAcademie-website/wiki) est associé au 
 
 Nous utilisons [SemVer](http://semver.org/) pour le versioning. Pour les versions disponibles, voir [tags de ce projet](https://github.com/bdelion/website/tags). 
 
+## Communauté
+
+Vous pouvez rejoindre ce groupe discuter pour discuter et poser des questions liées à ce projet : 
+
+- Issue tracker: [![github: bdelion/CodeAcademie-website/issues](https://img.shields.io/github/issues/bdelion/CodeAcademie-website.svg)](https://github.com/bdelion/CodeAcademie-website/issues)
+[![GitHub issues](https://img.shields.io/github/issues/bdelion/CodeAcademie-website.svg)](https://github.com/bdelion/CodeAcademie-website/issues)
+- Pull request: [![github: bdelion/CodeAcademie-website/pulls](https://img.shields.io/github/issues-pr/bdelion/CodeAcademie-website.svg)](https://github.com/bdelion/CodeAcademie-website/pulls)
+
 ## Auteurs
 
 * **Cédric, David & Stéphane** - *Initial work* - [Code Académie](https://github.com/code-academie/website)
