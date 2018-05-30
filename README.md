@@ -20,7 +20,6 @@ Nous utilisons [SemVer](http://semver.org/) pour le versioning. Pour les version
 Vous pouvez rejoindre ce groupe discuter pour discuter et poser des questions liées à ce projet : 
 
 - Issue tracker: [![github: bdelion/CodeAcademie-website/issues](https://img.shields.io/github/issues/bdelion/CodeAcademie-website.svg)](https://github.com/bdelion/CodeAcademie-website/issues)
-[![GitHub issues](https://img.shields.io/github/issues/bdelion/CodeAcademie-website.svg)](https://github.com/bdelion/CodeAcademie-website/issues)
 - Pull request: [![github: bdelion/CodeAcademie-website/pulls](https://img.shields.io/github/issues-pr/bdelion/CodeAcademie-website.svg)](https://github.com/bdelion/CodeAcademie-website/pulls)
 
 ## Auteurs
