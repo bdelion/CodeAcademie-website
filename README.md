@@ -1,4 +1,6 @@
 # Code Académie - Site Web
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/692bd3a561b14a2a9d2fa5e99e560d9b)](https://www.codacy.com/app/bdelion/CodeAcademie-website?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=bdelion/CodeAcademie-website&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/692bd3a561b14a2a9d2fa5e99e560d9b)](https://www.codacy.com/app/bdelion/CodeAcademie-website?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=bdelion/CodeAcademie-website&amp;utm_campaign=Badge_Coverage)
 
 Site Web créé lors des cours de de la Code Académie MAIF.
 Il nous sert de support pour nous exercer.
