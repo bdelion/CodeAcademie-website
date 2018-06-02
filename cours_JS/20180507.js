@@ -65,10 +65,10 @@ function DisplayResult(eltById, tabEntry = ["toto", "45", "toti", "13", "2342"])
   }
   console.log(eltById + " -> " + Array.from(tabSorted));
   // on constitue l'affichage du résultat sous forme de liste
-  result = result + `<p>Il a été trié ${tabSorted.length} nombres entiers à partir du tableau suivant [${Array.from(tabEntry)}] :</p><ol>`;
+  result = result + `<p>Il a été trié ${tabSorted.length} nombres entiers à partir du tableau suivant [${Array.from(tabEntry)}] :</p><ul>`;
   result = result + "<li class='prime_number'>";
   result = result + tabSorted.join("</li><li class='prime_number'>");
-  result = result + "</li></ol>";
+  result = result + "</li></ul>";
   // une fois la chaine crée on la rajoute à la page. C'est l'opération la plus coûteuse du script.
   list.innerHTML = result;
 }
