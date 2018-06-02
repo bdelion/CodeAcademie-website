@@ -227,9 +227,11 @@ function displayResult(eltById, maxNum = 0) {
 
   console.log(eltById + " -> "+ Array.from(tabPrimeNumber));
   result = result + `<p>Il a été trouvé ${tabPrimeNumber.length} nombres premiers :</p>`;
+  result = result + "<ul>";
   for (let element of tabPrimeNumber) {
     result = result + `<li class="prime_number">${element}</li>`;
   }
+  result = result + "</ul>";
   // une fois la chaine crée on la rajoute à la page. C'est l'opération la plus coûteuse du script.
   list.innerHTML = result;
 }

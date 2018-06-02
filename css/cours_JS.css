@@ -111,6 +111,10 @@ input.sendButton:hover {
 
 /* Exercice du 23/04/2018 & 03/05/2018 */
 
+article>p>ul {
+  list-style: disc inside;
+}
+
 .prime_number {
   font-size: 0.7em;
   margin-left: 20px;
