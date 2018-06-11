@@ -30,8 +30,7 @@ function primeNumberWhile(tab) {
     //boucle sur le tableau des nombres premiers déjà connus et si le nb est tjs premier
     while (j < tabPrimeNumber.length && isPrimeNumber) {
       //si le reste de la division entre le nb testé et un nb premier est  alors le nb n'est pas premier
-      var primeNumber = tabPrimeNumber[j];
-      if (tab[i] % primeNumber === 0) {
+      if (tab[i] % tabPrimeNumber[j] === 0) {
         isPrimeNumber = false;
       }
       j++;
