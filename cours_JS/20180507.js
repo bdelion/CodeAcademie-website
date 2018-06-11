@@ -6,13 +6,12 @@ Nouvel exercice pour manipuler les fonctions map/fiter/sort
     Trier le tableau par ordre croissant des entiers
 */
 
-'use strict';
+"use strict";
 
 /*
 Extraction et tri des entiers d'un tableau
 */
 function extractSort(entry) {
-  "use strict";
   var resultFilter = [];
   var resultMap = [];
   var resultSort = [];
@@ -36,7 +35,6 @@ function extractSort(entry) {
 Extraction et tri des entiers d'un tableau uniquement avec des Lambda
 */
 function extractSortLambda(entry) {
-  "use strict";
   var resultSort = [];
 
   return resultSort = entry
