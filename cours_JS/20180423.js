@@ -11,11 +11,12 @@ Indice 2 :  Un nombre a est divisible par un nombre b si le reste de la division
             Le reste d'une division entière s'obtient par l'opérateur % (modulo).
 */
 
+"use strict";
+
 /*
 Affichage des nombres premiers avec la boucle while
 */
 function primeNumberWhile(tab) {
-  "use strict";
   var tabPrimeNumber = [];
   var i = 0;
   var isPrimeNumber;
@@ -47,7 +48,6 @@ function primeNumberWhile(tab) {
 Affichage des nombres premiers avec la boucle for
 */
 function primeNumberFor(tab) {
-  "use strict";
   var tabPrimeNumber = [];
   var i = 0;
   var isPrimeNumber;
@@ -71,7 +71,6 @@ function primeNumberFor(tab) {
 Affichage des nombres premiers avec la boucle for .. of
 */
 function primeNumberForOf(tab) {
-  "use strict";
   var tabPrimeNumber = [];
   var isPrimeNumber;
 
@@ -94,7 +93,6 @@ function primeNumberForOf(tab) {
 Affichage des nombres premiers avec la boucle Array.forEach
 */
 function primeNumberArrayforEach(tab) {
-  "use strict";
   var tabPrimeNumber = [];
   var isPrimeNumber;
 
@@ -116,7 +114,6 @@ function primeNumberArrayforEach(tab) {
 Affichage des nombres premiers avec la boucle Array.filter
 */
 function primeNumberArrayfilter(tab) {
-  "use strict";
   var tabPrimeNumber = [];
 
   tabPrimeNumber = tab.filter(function(elt, index, tabE) {
@@ -137,7 +134,6 @@ function primeNumberArrayfilter(tab) {
 Affichage des nombres premiers avec la boucle Array.map
 */
 function primeNumberArraymap(tab) {
-  "use strict";
   var tabPrimeNumber = [];
   var j;
 
@@ -155,7 +151,7 @@ function primeNumberArraymap(tab) {
     }
   })
   .filter(function(elt) {
-    return (elt !== undefined);
+    return (typeof elt !== "undefined");
   });
   return tabPrimeNumber;
 }
@@ -166,7 +162,6 @@ function primeNumberArraymap(tab) {
 Affichage des x premiers nombres premiers inférieurs à une borne
 */
 function primeNumberFirstOne(borne) {
-"use strict";
   var i = 0;
   var j = 0;
   var tabPrimeNumber = [];
@@ -192,7 +187,6 @@ function primeNumberFirstOne(borne) {
 /*
 Affichage des résultats des calculs
 */
-"use strict";
 function displayResult(eltById, maxNum = 0) {
   var tab = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30];
   var tabPrimeNumber = [];
@@ -224,8 +218,7 @@ function displayResult(eltById, maxNum = 0) {
     default:
       tabPrimeNumber = ["vide"];
   }
-
-  console.log(eltById + " -> "+ Array.from(tabPrimeNumber));
+  
   result = result + `<p>Il a été trouvé ${tabPrimeNumber.length} nombres premiers :</p>`;
   result = result + "<ul>";
   for (let element of tabPrimeNumber) {
