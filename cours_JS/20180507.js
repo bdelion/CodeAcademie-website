@@ -6,11 +6,12 @@ Nouvel exercice pour manipuler les fonctions map/fiter/sort
     Trier le tableau par ordre croissant des entiers
 */
 
+"use strict";
+
 /*
 Extraction et tri des entiers d'un tableau
 */
 function extractSort(entry) {
-  "use strict";
   var resultFilter = [];
   var resultMap = [];
   var resultSort = [];
@@ -34,7 +35,6 @@ function extractSort(entry) {
 Extraction et tri des entiers d'un tableau uniquement avec des Lambda
 */
 function extractSortLambda(entry) {
-  "use strict";
   var resultSort = [];
 
   return resultSort = entry
@@ -46,9 +46,8 @@ function extractSortLambda(entry) {
 /*
 Affichage des résultats des calculs
 */
-"use strict";
 
-function DisplayResult(eltById, tabEntry = ["toto", "45", "toti", "13", "2342"]) {
+function displayResult(eltById, tabEntry = ["toto", "45", "toti", "13", "2342"]) {
   var tabSorted = [];
   var list = document.getElementById(eltById);
   var result = "";
@@ -63,7 +62,6 @@ function DisplayResult(eltById, tabEntry = ["toto", "45", "toti", "13", "2342"])
     default:
       tabSorted = ["vide"];
   }
-  console.log(eltById + " -> " + Array.from(tabSorted));
   // on constitue l'affichage du résultat sous forme de liste
   result = result + `<p>Il a été trié ${tabSorted.length} nombres entiers à partir du tableau suivant [${Array.from(tabEntry)}] :</p><ul>`;
   result = result + "<li class='prime_number'>";
