@@ -155,7 +155,7 @@ function primeNumberArraymap(tab) {
     }
   })
   .filter(function(elt) {
-    return (elt !== undefined);
+    return (typeof elt !== 'undefined');
   });
   return tabPrimeNumber;
 }
@@ -224,8 +224,7 @@ function displayResult(eltById, maxNum = 0) {
     default:
       tabPrimeNumber = ["vide"];
   }
-
-  console.log(eltById + " -> "+ Array.from(tabPrimeNumber));
+  
   result = result + `<p>Il a été trouvé ${tabPrimeNumber.length} nombres premiers :</p>`;
   result = result + "<ul>";
   for (let element of tabPrimeNumber) {
